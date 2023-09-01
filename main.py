@@ -26,7 +26,7 @@ def handle_cfg(cf:ConfigParser):
     cfg.update(cfg_b)
     return cfg
 
-def main(config_path = "./config/fedprox.ini"):
+def main(config_path = "./config/fedavg.ini"):
     cf = ConfigParser()
     cf.read(config_path)
     cfg = handle_cfg(cf)
